@@ -1,0 +1,143 @@
+html {
+    /* px 表示“像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 10px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;
+    background-color:ghostwhite;
+  }
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white
+}
+
+li.nav
+{
+    float:right;
+    border-left: 100px solid white
+}
+
+li.nav:last-child {
+    border-left: none;
+}
+
+a.nav
+{
+    display:block;
+    color: black;
+    width:100px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:x-large
+}
+
+li.nav a:hover {
+    background-color: gray;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color:black
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color:black
+}
+
+h3 {
+    font-size: 30px;
+    text-align: left;
+    color:black;
+}
+
+
+h4 {
+    font-size: 24px;
+    text-align: left;
+    color: black;
+}
+
+h3.center {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+ 
+.main 
+{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 20px 20px;
+}
+
+p, li 
+{
+    font-size: 18px;
+    /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 2;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 20px 0;
+    color:black;
+}
+
+.reference
+{
+    font-size: 18px;
+    margin: 0;
+    color: black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bg1
+{
+    width:auto;
+    background-image: url("../images/bg1.jpg");
+    background-repeat: repeat-y;
+}
+
+.bg2
+{
+    background-image: url("../images/bg2.jpg");
+    background-repeat: repeat-y;
+}
+.bg3
+{
+    background-image: url("../images/bg3.jpg");
+    background-repeat: repeat-y;
+}
+
+.bg4
+{
+    background-image: url("../images/bg4.jpg");
+    background-repeat: repeat-y;
+}
+
+.bg5
+{
+    background-image: url("../images/bg5.jpg");
+    background-repeat: repeat-y;
+}
