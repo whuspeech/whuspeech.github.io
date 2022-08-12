@@ -17,7 +17,7 @@ ul.nav {
 li.nav
 {
     float:right;
-    border-left: 100px solid white
+    border-left: 60px solid white
 }
 
 li.nav:last-child {
@@ -28,7 +28,7 @@ a.nav
 {
     display:block;
     color: black;
-    width:100px;
+    width:80px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
